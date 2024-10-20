@@ -1,0 +1,88 @@
+@font-face {
+ font-family: custom;
+ src: url('BadScript-Regular.ttf');
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ display: flex;
+ background: #babecc;
+}
+
+.wrapper{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 100vh;
+}
+
+h2{
+ position: relative;
+ width: 70%;
+ height: 90px;
+ display: flex;
+ align-self: center;
+ text-align: center;
+ font-size: 2em;
+ font-weight: bolder;
+ text-transform: uppercase;
+ margin-top: 5%;
+ text-decoration:2px steelblue underline double;
+}
+
+button{
+ position: absolute;
+ width: 25%;
+ height: 35px;
+ top: 2.5em; 
+ right: 5px;
+ font-size: 1em;
+ outline: none;
+ border: none;
+ border-radius: 10px;
+ background: #fff;
+ box-shadow: 2px 2px 2px #dde1e7, -2px -2px 2px rgba(0, 0, 0, .25);
+}
+
+button:active{
+ transform: scale(.8);
+}
+
+.txt-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ align-self: center;
+ width: 65%;
+ font-size: 1em;
+ font-weight: bolder;
+ height: 18em;
+ line-height: 2em;
+ margin: 3%;
+ margin-top: 15%;
+  font-family: custom;
+}
+
+.logo{
+  display: flex;
+ align-self: center;
+ justify-self: center;
+ margin-top: 3%;
+}
+
+.logo img{
+ width: 90px;
+ aspect-ratio: 16/16;
+ border-radius: 50%;
+ filter: sepia(40%);
+}
+
+.dark{
+ background: #000;
+ color: #fff;
+}
